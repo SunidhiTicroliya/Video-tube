@@ -1,0 +1,40 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "This is my first backend app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunidhiTicroliya/Video-tube"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Sunidhi Ticroliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunidhiTicroliya/Video-tube/issues"
+  },
+  "homepage": "https://github.com/SunidhiTicroliya/Video-tube#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.0"
+  }
+}
